@@ -1,0 +1,108 @@
+body {
+  background-color: #f7f3f3; 
+}
+.navbar ul {
+    /*unordered list that controls the background decoration for the list below*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar li {
+  float: left;
+    /*defines where the list is going to sit*/
+}
+.navbar li a{
+    /*makes it look pretty*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a {
+    /*how the above list is viewed for the navigation bar*/
+  display: block;
+  padding: 8px;
+  background-color: #333;
+}
+.navbar li a:hover{
+    /*colour that appears when mouse is hovered over button*/
+    background-color: #f7bfc3;
+    color: #3b6f7d;
+}
+.navbar .imglogo img{
+    width:55px;
+    display: inline-block;
+    float:left;
+    margin: auto 5px;
+    position: absolute;
+    right: 1px;
+}
+header{
+    color:#606060;
+    background-color:grey;
+    /*Header information with copyright text at the top of the site*/
+}
+.logobig{
+    background-color:#f7e9ee;
+}
+.covercontainer{
+    /*container which controls the centreing and the slight gradient from top to bottom*/
+    background-image: linear-gradient(to bottom,rgba(247, 233, 238,1),rgba(0,0,0,0)),url(../img/flowers2.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.covercontainer h1 {
+    margin:auto;
+    text-decoration:underline 1px #3b6f7d;
+    background-color: #f7f3f3;
+    padding: auto;
+    max-width: max-content;
+        /*don't worry, it may be white but the "max-content" property works. it stops the background colour from filling in the entire section the text is placed on, and instead forces it to stay within the borders of the written content*/
+    margin: 0 auto;
+}
+.covercontainer h3 {
+    margin: auto;
+    color:#606060;
+    background-color: #f7f3f3;
+    padding: auto;
+    max-width: max-content;
+    margin: 0 auto;
+}
+.egimages img{
+    /*sizing for example images*/
+    margin: 0px;
+    width: 20%; 
+    padding: 10px;
+}
+hr.divider{
+    border: 0.1.px #3b6f7d solid;
+    margin: 20px;
+    /*divider between the covercontainer and egimages*/
+}
+.infoabout p {
+    /*sizing and details on the about page*/
+    background-color: rgb(247, 233, 238);
+    padding: auto;
+}
+.socials a{
+    /*the links in the "contact" section*/
+    text-decoration: underline overline 1px;
+    color: #f7bfc3;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 10px;
+    background-color:#6D454C;
+}
+.socials a:hover{
+    color: #F7F3F3;
+    background-color: #6B2737;
+}
+
+/*'cause if this boat flips over and everyone drowns, 
+well that's alright with me.*/
